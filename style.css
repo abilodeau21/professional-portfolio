@@ -1,5 +1,5 @@
 /* header style*/
-.header{
+.header {
     display: flex;
     background-color: darkgreen;
     color: white;
@@ -12,13 +12,22 @@
     font-size: 45px;
 }
 
-.nav-bar {
+.nav-bar, a{
     display: inline-flex;
     list-style: none;
+    color: white;
+    text-decoration: none;
 }
 
 .header li {
     padding: 20px;
 }
  /* Hero style */
+ .hero img {
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    
+ }
     
