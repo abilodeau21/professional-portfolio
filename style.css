@@ -1,0 +1,24 @@
+/* header style*/
+.header{
+    display: flex;
+    background-color: darkgreen;
+    color: white;
+    margin: 0px;
+    font-size: 28px;
+    justify-content: space-between;
+    
+}
+.name {
+    font-size: 45px;
+}
+
+.nav-bar {
+    display: inline-flex;
+    list-style: none;
+}
+
+.header li {
+    padding: 20px;
+}
+ /* Hero style */
+    
