@@ -28,6 +28,16 @@
     width: 100%;
     background-size: cover;
     background-position: center;
-    
- }
+}
+/*About Me style*/
+.about, h2, p {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-body, p{
+    padding: 0px 100px;
+}
     
