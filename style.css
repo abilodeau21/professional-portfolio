@@ -1,3 +1,7 @@
+* {
+    background-color: #419419;
+}
+
 /* header style*/
 .header {
     display: flex;
@@ -10,10 +14,15 @@
 }
 .name {
     font-size: 45px;
+    background-color: #023020;
 }
 
-.nav-bar, a{
+.nav ul li{
+    background-color: #023020;
+}
+.nav-bar, ul, a{
     display: inline-flex;
+    background-color: #023020;
     list-style: none;
     color: white;
     text-decoration: none;
@@ -30,14 +39,37 @@
     background-position: center;
 }
 /*About Me style*/
-.about, h2, p {
+.about {
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
     justify-content: space-between;
 }
 
-.about-body, p{
+.about-me {
     padding: 0px 100px;
+    font-size: 25px;
 }
+
+.body-box, p{
+    padding: 0px 100px;
+    display: inline-block;
+    height: 150px;
+    width: 80%;
+    font-size: 20px;
+}
+.photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    
+
+}
+.suki img, .hike img, .full img{
+    height: 600px;
+    width: 100%;
+    
+}
+    
     
