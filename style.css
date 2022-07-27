@@ -5,7 +5,6 @@
 /* header style*/
 .header {
     display: flex;
-    background-color: #023020;
     color: white;
     margin: 0px;
     font-size: 28px;
@@ -42,25 +41,34 @@
 .about {
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 
 .about-me {
     padding: 0px 100px;
     font-size: 25px;
+    position: relative;
+    left: 50px;
+    
+}
+.about-me, h2 {
+    border-left: #023020 150px solid 3px;
 }
 
 .body-box, p{
-    padding: 0px 100px;
+    padding: 0px 100px 50px;
     display: inline-block;
     height: 150px;
     width: 80%;
     font-size: 20px;
+    position: relative;
+    right: 100px;
 }
 .photos {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 20px;
+    padding: 40px 160px;
     margin-left: 200px;
     margin-right: 200px;
     
@@ -68,8 +76,57 @@
 }
 .suki img, .hike img, .full img{
     height: 600px;
-    width: 100%;
-    
+    width: 100%;   
 }
-    
+/*work style*/
+.work-box {
+    display: flex;
+}
+.work-text {
+    padding: 0px 100px;
+    font-size: 40px;
+    position: relative;
+    left: 50px;
+}
+
+.big-box {
+    display: flex;
+    position: relative;
+    padding: 0px 60px;
+}
+.run-title {
+    background-color: #023020;
+    color: white;
+    height: 44px;
+    width: 120px;
+    position: relative;
+        bottom: 150px;   
+}
+.small-box {
+   display: flex;
+   flex-wrap: wrap;
+   width: 1600px;
+   margin: 0px 300px; 
+   
+}
+.horieson, .bike-buddy, .swim-buddy, .soccer-buddy {
+position: relative;
+}
+.horieson img, .bike-buddy img, .swim-buddy img, .soccer-buddy img {
+    height: 350px;
+    width: 650px;
+    justify-content: space-between;
+    margin: 50px 50px 0px 50px;
+    border: #023020 solid 5px;
+}
+.horieson h3, .bike-buddy h3, .swim-buddy h3, .soccer-buddy h3 {
+    background-color: #023020;
+    color: white;
+    height: 44px;
+    width: 120px;
+    position: relative;
+        bottom: 150px;
+        left: 50px;
+}
+
     
